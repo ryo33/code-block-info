@@ -38,9 +38,9 @@ function block(category, info, callback) {
     info = category
     category = defaultCategory
   }
-  pushInfo(category, info)
+  begin(category, info)
   callback()
-  popInfo(category)
+  end(category)
 }
 
 function begin(category, info) {
