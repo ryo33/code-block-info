@@ -1,12 +1,12 @@
 code-block-info
 ====
-Attach informations to code blocks.
+Attaches informations to code blocks.
 
 ## Installation
 `npm install --save code-block-info`
 
 ## Example
-This example use the default category.
+This example uses the default category.
 
 ### Block style
 ```javascript
@@ -59,10 +59,10 @@ Calls the function with the informationsa.
 - `func` A function which is called with the informations
 
 ### `begin([category], info)`
-Push the information to the stack.
+Pushes the information to the stack.
 
 ### `end([category], info)`
-Pop the information from the stack.
+Pops the information from the stack.
 
 ## Using in a library
 You should prevent conflicts by using the `category` argument.
