@@ -37,7 +37,7 @@ begin('info')
 getInfo() // => ['info']
 
 begin('another_info')
-getInfo() // => ['another_info']
+getInfo() // => ['info', 'another_info']
 end()
 
 getInfo() // => ['info']
